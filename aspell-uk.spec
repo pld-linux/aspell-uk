@@ -1,14 +1,14 @@
 Summary:	Ukrainian dictionary for aspell
 Summary(pl):	Ukraiñski s³ownik dla aspella
 Name:		aspell-uk
-Version:	0.50
-%define	subv	3
-Release:	2
+Version:	0.51
+%define	subv	0
+Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/uk/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	0b37b59539424a6980814ce5392725a8
+# Source0-md5:	767bfca10c64b239b05cb8b68a78f4ad
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
