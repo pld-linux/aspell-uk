@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Ukrainian dictionary (i.e. word list) for aspell.
 
 %description -l pl
-S³ownik ukraiñski (lista s³ów) dla aspella.
+S³ownik (lista s³ów) ukraiñski dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
