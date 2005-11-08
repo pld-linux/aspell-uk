@@ -1,17 +1,17 @@
 Summary:	Ukrainian dictionary for aspell
 Summary(pl):	S³ownik ukraiñski dla aspella
 Name:		aspell-uk
-Version:	0.51
+Version:	1.1
 %define	subv	0
 Release:	1
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/uk/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	767bfca10c64b239b05cb8b68a78f4ad
+Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/uk/aspell6-uk-%{version}-%{subv}.tar.bz2
+# Source0-md5:	f3ffe52d86b83a394ce29e88bd3ef9d2
 URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell >= 2:0.50.0
-Requires:	aspell >= 2:0.50.0
+BuildRequires:	aspell >= 3:0.60.0
+Requires:	aspell >= 3:0.60.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -21,7 +21,7 @@ Ukrainian dictionary (i.e. word list) for aspell.
 S³ownik ukraiñski (lista s³ów) dla aspella.
 
 %prep
-%setup -q -n %{name}-%{version}-%{subv}
+%setup -q -n aspell6-uk-%{version}-%{subv}
 
 %build
 # note: configure is not autoconf-generated
