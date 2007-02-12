@@ -1,5 +1,5 @@
 Summary:	Ukrainian dictionary for aspell
-Summary(pl):	S≥ownik ukraiÒski dla aspella
+Summary(pl.UTF-8):   S≈Çownik ukrai≈Ñski dla aspella
 Name:		aspell-uk
 Version:	1.1
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Ukrainian dictionary (i.e. word list) for aspell.
 
-%description -l pl
-S≥ownik ukraiÒski (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+S≈Çownik ukrai≈Ñski (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n aspell6-uk-%{version}-%{subv}
