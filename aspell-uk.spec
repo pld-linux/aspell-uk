@@ -1,5 +1,5 @@
 Summary:	Ukrainian dictionary for aspell
-Summary(pl.UTF-8):   Słownik ukraiński dla aspella
+Summary(pl.UTF-8):	Słownik ukraiński dla aspella
 Name:		aspell-uk
 Version:	1.1
 %define	subv	0
